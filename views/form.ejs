@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= locals.title %></title>
+  </head>
+  <body>
+    <h1>User Form</h1>
+    <form method="POST" action="/new">
+      <input name="messageUser" type="text" placeholder="author's name" />
+      <textarea name="messageText" placeholder="memories"></textarea>
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
